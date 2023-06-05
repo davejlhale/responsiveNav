@@ -4,7 +4,7 @@ import Navbar  from './components/Navbar';
 import Homepage from './pages/Homepage';
 import About from "./pages/About";
 import DeveloperRoles from "./pages/DeveloperRoles"
-import './app.css';
+import './App.css';
 
 function App() {
   return (
