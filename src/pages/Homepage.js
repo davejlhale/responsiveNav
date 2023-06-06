@@ -10,10 +10,7 @@ const Homepage = () => {
 
                     <article id="gameDevRoles">
                         <p>
-                            The current goal for many of us is to learn the unity interface and basic c# by doing some online tutorials to get to a point where we can contribute to some basic game projects.
-                        </p>
-                        <p>There are many other roles needed for game development and hopefully you can find out what you'd like to work towards by learning about the different roles
-                            <NavLink to="/DeveloperRoles">here</NavLink>
+                       homepage
                         </p>
 
                     </article>

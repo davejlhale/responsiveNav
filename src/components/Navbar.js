@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import '../styles/Navbar.style';
 import { NavLeftContainer,  NavHamburger,  NavRightContainer, NavExtendedContainer, NavLinkContainer, StyledImageLink, NavInnerContainer, NavbarContainer, NavLink, NavLinkExtended } from '../styles/Navbar.style';
 import LogoImg from "../assets/logo.png";
-import DiscordIcon from "../assets/discord.png";
 function Navbar() {
 
     const [extendNavbar, setExtendNavbar] = useState(false)
@@ -12,9 +11,6 @@ function Navbar() {
                 <NavLeftContainer>
                     <NavLinkContainer>
                         <NavLink to="/">Home</NavLink>
-                        <NavLink to="/DeveloperRoles">?</NavLink>
-                      
-                        <NavLink to="/unity">Unity</NavLink>
                         <NavLink to="/about">About</NavLink>
 
                         <NavHamburger extendNavbar={extendNavbar}
@@ -45,17 +41,7 @@ function Navbar() {
                 <NavRightContainer>
                    
 
-                    <StyledImageLink
-                        href="https://discord.gg/TFeeEjN7gA"
-                        src={DiscordIcon}
-                        alt="Discord"
-                        target="_blank"
-                        transform="rotate(720deg)"
-                        height='60px'
-                        margin="auto"
-                        
-                        
-                    />
+                   
                     <StyledImageLink
                         href="/"
                         src={LogoImg}
