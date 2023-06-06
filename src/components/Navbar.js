@@ -69,8 +69,8 @@ function Navbar() {
             {extendNavbar && (
                 <NavExtendedContainer>
                     <NavLinkExtended to="/">Home</NavLinkExtended>
-                    <NavLinkExtended to="/">Unity</NavLinkExtended>
-                    <NavLinkExtended to="/">About</NavLinkExtended>
+                    <NavLinkExtended to="/unity">Unity</NavLinkExtended>
+                    <NavLinkExtended to="/about">About</NavLinkExtended>
                 </NavExtendedContainer>)
             }
         </NavbarContainer>

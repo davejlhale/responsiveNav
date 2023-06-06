@@ -1,7 +1,11 @@
-import styled from "styled-components";
+import styled ,{keyframes} from "styled-components";
 
 import { NavLink as Link } from 'react-router-dom';
-
+const gradient  = keyframes`
+     0%{background-position:70% 0%}
+    50%{background-position:31% 100%}
+    100%{background-position:70% 0%}
+    `
 
 export const NavbarContainer = styled.nav`
 width: 100%;
@@ -9,7 +13,13 @@ height:${(props) => (props.extendNavbar ? "auto" : "80px")};
 background-color: black;
 display:flex;
 flex-direction: column;
-`;
+background: linear-gradient(209deg, #366c40, #62e53e);
+    background-size: 400% 400%;
+
+    -webkit-animation: ${gradient} 18s ease infinite;
+    -moz-animation: ${gradient} 18s ease infinite;
+    animation: ${gradient} 18s ease infinite;
+  `;
 
 export const NavLeftContainer = styled.nav`
 flex:70%;
